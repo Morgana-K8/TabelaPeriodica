@@ -1,0 +1,103 @@
+
+.contenido {
+    text-align: center;
+}
+.contenido table {
+    margin: 0 auto;
+}
+.numero {
+    font-size: 8px;
+    float: left;
+}
+.elemento {
+    font-size: 18px;
+    font-weight: bold;
+}
+.nome {
+    font-size: 12px;
+    float: left;
+}
+.peso {
+    font-size: 8px;
+    float: left;
+}
+.color {
+    background: #e7e7e7;
+}
+.naranja {
+    background: #ffaa00;
+    border-radius: 4px;
+}
+.amarillo {
+    background: #f7f700;
+    border-radius: 4px;
+}
+.morado {
+    background-color: #ff7799;
+    border-radius: 4px;
+}
+.azul {
+    background: #04ebeb;
+    border-radius: 4px;
+}
+.verde {
+    background: #00f700;
+    border-radius: 4px;
+}
+.azul.claro {
+    background: #05f0f0;
+}
+table td:first-child {
+    width: 60;
+}
+table td:nth-child(2) {
+    width: 60;
+}
+table td:nth-child(3) {
+    width: 60;
+}
+table td:nth-child(4) {
+    width: 60;
+}
+table td:nth-child(5) {
+    width: 60;
+}
+table td:nth-child(6) {
+    width: 70;
+}
+table td:nth-child(7) {
+    width: 70;
+}
+table td:nth-child(8) {
+    width: 70;
+}
+table td:nth-child(9) {
+    width: 70;
+}
+table td:nth-child(10) {
+    width: 70;
+}
+table td:nth-child(11) {
+    width: 70;
+}
+table td:nth-child(12) {
+    width: 70;
+}
+table td:nth-child(13) {
+    width: 70;
+}
+table td:nth-child(14) {
+    width: 70;
+}
+table td:nth-child(15) {
+    width: 70;
+}
+table td:nth-child(16) {
+    width: 70;
+}
+table td:nth-child(17) {
+    width: 70;
+}
+table td:nth-child(18) {
+    width: 70;
+}

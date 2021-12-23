@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Periodic Table</title>
+    <style>
+        body {
+            background-color: #fef5e7;
+        }
+
+        .amarillo {
+            background-color: yellow;
+            border-radius: 4px;
+        }
+
+        .amarillo:hover {
+            background-color: white;
+        }
+
+        .naranja {
+            background-color: orange;
+            border-radius: 4px;
+        }
+
+        .naranja:hover {
+            background-color: white;
+        }
+
+        .morado {
+            background-color: #ff7799;
+            border-radius: 4px;
+        }
+
+        .morado:hover {
+            background-color: white;
+        }
+
+        .blue {
+            background-color: #04ebeb;
+            border-radius: 4px;
+        }
+
+        .blue:hover {
+            background-color: white;
+        }
+
+        .verde {
+            background-color: #00f700;
+            border-radius: 4px;
+        }
+
+        .verde:hover {
+            background-color: white;
+        }
+        .rosa {
+            background-color: #f00b57;
+            border-radius: 4px;
+        }
+
+        .rosa:hover {
+            background-color: white;
+        }
+
+        .lilas {
+            background-color: #9c0bf0;
+            border-radius: 4px;
+        }
+
+        .lilas:hover {
+            background-color: white;
+        }
+
+       
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <!--primeira fila-->
+            <td class="naranja">
+            <span class="numero">1</span><br>
+            <span class="elemento">H</span><br>
+            <span class="nome">Hydrogen</span><br>
+            <span class="peso">1.0079</span>
+        </td> 
+            <td colspan="16"></td>
+            <td class="lilas">
+            <span class="numero">2</span><br>
+            <span class="elemento">He</span><br>
+            <span class="nome">Helium</span><br>
+            <span class="peso">4.0026</span>
+        </td>
+        </tr>
+        <tr>
+            <!--segunda fila-->
+            <td class="naranja">
+            <span class="numero">3</span><br>
+            <span class="elemento">Li</span><br>
+            <span class="nome">Lithium</span><br>
+            <span class="peso">6.941</span>
+        </td>
+            <td class="amarillo">
+            <span class="numero">4</span><br>
+            <span class="elemento">Be</span><br>
+            <span class="nome">Beryllium</span><br>
+            <span class="peso">9.0122</span>
+        </td>
+            <td colspan="10"></td>
+            <h1>Periodic Table</h1>
+            <td class="verde">
+            <span class="numero">5</span><br>
+            <span class="elemento">B</span><br>
+            <span class="nome">Boron</span><br>
+            <span class="peso">10.811</span>
+        </td>
+            <td class="verde">
+            <span class="numero">6</span><br>
+            <span class="elemento">C</span><br>
+            <span class="nome">Carbon</span><br>
+            <span class="peso">12.01115</span>
+        </td>
+            <td class="verde">
+            <span class="numero">7</span><br>
+            <span class="elemento">N</span><br>
+            <span class="nome">Nitrogen</span><br>
+            <span class="peso">14.0067</span>
+        </td>
+            <td class="verde">
+            <span class="numero">8</span><br>
+            <span class="elemento">O</span><br>
+            <span class="nome">Oxygen</span><br>
+            <span class="peso">15.9994</span>
+        </td>
+            <td class="verde">
+            <span class="numero">9</span><br>
+            <span class="elemento">F</span><br>
+            <span class="nome">Fluorine</span><br>
+            <span class="peso">18.9984</span>
+        </td>
+            <td class="lilas">
+            <span class="numero">10</span><br>
+            <span class="elemento">Ne</span><br>
+            <span class="nome">Neon</span><br>
+            <span class="peso">20.183</span>
+        </td>
+        </tr>
+        <tr>
+            <!--terceira fila-->
+            <td class="naranja">
+            <span class="numero">11</span><br>
+            <span class="elemento">Na</span><br>
+            <span class="nome">Sodium</span><br>
+            <span class="peso">22.9898</span>
+        </td>
+            <td class="amarillo">
+            <span class="numero">12</span><br>
+            <span class="elemento">Mg</span><br>
+            <span class="nome">Magnesium</span><br>
+            <span class="peso">24.312</span>
+        </td>
+            <td colspan="10"></td>
+            <td class="blue">
+            <span class="numero">13</span><br>
+            <span class="elemento">Al</span><br>
+            <span class="nome">Aluminum</span><br>
+            <span class="peso">26.9815</span>
+        </td>
+            <td class="verde">
+            <span class="numero">14</span><br>
+            <span class="elemento">Si</span><br>
+            <span class="nome">Silicon</span><br>
+            <span class="peso">28.086</span>
+        </td>
+            <td class="verde">
+            <span class="numero">15</span><br>
+            <span class="elemento">P</span><br>
+            <span class="nome">Phosphorus</span><br>
+            <span class="peso">30.9738</span>
+        </td>
+            <td class="verde">
+            <span class="numero">16</span><br>
+            <span class="elemento">S</span><br>
+            <span class="nome">Sulfur</span><br>
+            <span class="peso">32.064</span>
+        </td>
+            <td class="verde">
+            <span class="numero">17</span><br>
+            <span class="elemento">Cl</span><br>
+            <span class="nome">Chlorine</span><br>
+            <span class="peso">35.453</span>
+        </td>
+            <td class="lilas">
+            <span class="numero">18</span><br>
+            <span class="elemento">Ar</span><br>
+            <span class="nome">Argon</span><br>
+            <span class="peso">39.948</span>
+        </td>
+        </tr>
+        <tr>
+            <!--quarta fila-->
+            <td class="naranja">
+            <span class="numero">19</span><br>
+            <span class="elemento">K</span><br>
+            <span class="nome">Potassium</span><br>
+            <span class="peso">39.098</span>
+        </td>
+            <td class="amarillo">
+            <span class="numero">20</span><br>
+            <span class="elemento">Ca</span><br>
+            <span class="nome">Calcium</span><br>
+            <span class="peso">40.08</span>
+        </td>
+            <td class="morado">
+            <span class="numero">21</span><br>
+            <span class="elemento">Sc</span><br>
+            <span class="nome">Scandium</span><br>
+            <span class="peso">44.956</span>
+        </td>
+            <td class="morado">
+            <span class="numero">22</span><br>
+            <span class="elemento">Ti</span><br>
+            <span class="nome">Titanium</span><br>
+            <span class="peso">47.90</span>
+        </td>
+            <td class="morado">
+            <span class="numero">23</span><br>
+            <span class="elemento">V</span><br>
+            <span class="nome">Vanadium</span><br>
+            <span class="peso">50.942</span>
+        </td>
+            <td class="morado">
+            <span class="numero">24</span><br>
+            <span class="elemento">Cr</span><br>
+            <span class="nome">Chromium</span><br>
+            <span class="peso">51.996</span>
+        </td>
+            <td class="morado">
+            <span class="numero">25</span><br>
+            <span class="elemento">Mn</span><br>
+            <span class="nome">Manganese</span><br>
+            <span class="peso">54.9380</span>
+        </td>
+            <td class="morado">
+            <span class="numero">26</span><br>
+            <span class="elemento">Fe</span><br>
+            <span class="nome">Iron</span><br>
+            <span class="peso">55.847</span>
+        </td>
+            <td class="morado">
+            <span class="numero">27</span><br>
+            <span class="elemento">Co</span><br>
+            <span class="nome">Cobalt</span><br>
+            <span class="peso">58.93</span>
+        </td>
+            <td class="morado">
+            <span class="numero">28</span><br>
+            <span class="elemento">Ni</span><br>
+            <span class="nome">Nickel</span><br>
+            <span class="peso">58.69</span>
+        </td>
+            <td class="morado">
+            <span class="numero">29</span><br>
+            <span class="elemento">Cu</span><br>
+            <span class="nome">Copper</span><br>
+            <span class="peso">63.55</span>
+        </td>
+            <td class="morado">
+            <span class="numero">30</span><br>
+            <span class="elemento">Zn</span><br>
+            <span class="nome">Zinc</span><br>
+            <span class="peso">65.38</span>
+        </td>
+            <td class="blue">
+            <span class="numero">31</span><br>
+            <span class="elemento">Ga</span><br>
+            <span class="nome">Gallium</span><br>
+            <span class="peso">69.72</span>
+        </td>
+            <td class="blue">
+            <span class="numero">32</span><br>
+            <span class="elemento">Ge</span><br>
+            <span class="nome">Germanium</span><br>
+            <span class="peso">72.59</span>
+        </td>
+            <td class="verde">
+            <span class="numero">33</span><br>
+            <span class="elemento">As</span><br>
+            <span class="nome">Arsenic</span><br>
+            <span class="peso">74.9216</span>
+        </td>
+            <td class="verde">
+            <span class="numero">34</span><br>
+            <span class="elemento">Se</span><br>
+            <span class="nome">Selenium</span><br>
+            <span class="peso">78.96</span>
+        </td>
+            <td class="verde">
+            <span class="numero">35</span><br>
+            <span class="elemento">Br</span><br>
+            <span class="nome">Bromine</span><br>
+            <span class="peso">79.909</span>
+        </td>
+            <td class="lilas">
+            <span class="numero">36</span><br>
+            <span class="elemento">Kr</span><br>
+            <span class="nome">Krypton</span><br>
+            <span class="peso">83.80</span>
+        </td>
+        </tr>
+        <tr>
+            <!--quinta fila-->
+            <td class="naranja">
+                <span class="numero">37</span><br>
+                <span class="elemento">Rb</span><br>
+                <span class="nome">Rubidium</span><br>
+                <span class="peso">85.47</span>
+            </td>
+            <td class="amarillo">
+                <span class="numero">38</span><br>
+                <span class="elemento">Sr</span><br>
+                <span class="nome">Strontium</span><br>
+                <span class="peso">87.62</span>
+            </td>
+            <td class="morado">
+                <span class="numero">39</span><br>
+                <span class="elemento">Y</span><br>
+                <span class="nome">Yttrium</span><br>
+                <span class="peso">88.905</span>
+            </td>
+            <td class="morado">
+                <span class="numero">40</span><br>
+                <span class="elemento">Zr</span><br>
+                <span class="nome">Zirconium</span><br>
+                <span class="peso">91.22</span>
+            </td>
+            <td class="morado">
+                <span class="numero">41</span><br>
+                <span class="elemento">Nb</span><br>
+                <span class="nome">Niobium</span><br>
+                <span class="peso">92.906</span>
+            </td>
+            <td class="morado">
+                <span class="numero">42</span><br>
+                <span class="elemento">Mo</span><br>
+                <span class="nome">Molybdenum</span><br>
+                <span class="peso">95.94</span>
+            </td>
+            <td class="morado">
+                <span class="numero">43</span><br>
+                <span class="elemento">Tc</span><br>
+                <span class="nome">Technetium</span><br>
+                <span class="peso">98</span>
+            </td>
+            <td class="morado">
+                <span class="numero">44</span><br>
+                <span class="elemento">Ru</span><br>
+                <span class="nome">Ruthenium</span><br>
+                <span class="peso">101.07</span>
+            </td>
+            <td class="morado">
+                <span class="numero">45</span><br>
+                <span class="elemento">Rh</span><br>
+                <span class="nome">Rhodium</span><br>
+                <span class="peso">102.905</span>
+            </td>
+            <td class="morado">
+                <span class="numero">46</span><br>
+                <span class="elemento">Pd</span><br>
+                <span class="nome">Palladium</span><br>
+                <span class="peso">106.4</span>
+            </td>
+            <td class="morado">
+                <span class="numero">47</span><br>
+                <span class="elemento">Ag</span><br>
+                <span class="nome">Silver</span><br>
+                <span class="peso">107.870</span>
+            </td>
+            <td class="morado">
+                <span class="numero">48</span><br>
+                <span class="elemento">Cd</span><br>
+                <span class="nome">Cadmium</span><br>
+                <span class="peso">112.40</span>
+            </td>
+            <td class="blue">
+                <span class="numero">49</span><br>
+                <span class="elemento">In</span><br>
+                <span class="nome">Indium</span><br>
+                <span class="peso">114.82</span>
+            </td>
+            <td class="blue">
+                <span class="numero">50</span><br>
+                <span class="elemento">Sn</span><br>
+                <span class="nome">Tin</span><br>
+                <span class="peso">118.69</span>
+            </td>
+            <td class="blue">
+                <span class="numero">51</span><br>
+                <span class="elemento">Sb</span><br>
+                <span class="nome">Antimony</span><br>
+                <span class="peso">121.75</span>
+            </td>
+            <td class="verde">
+                <span class="numero">52</span><br>
+                <span class="elemento">Te</span><br>
+                <span class="nome">Tellurium</span><br>
+                <span class="peso">127.60</span>
+            </td>
+            <td class="verde">
+                <span class="numero">53</span><br>
+                <span class="elemento">I</span><br>
+                <span class="nome">Iodine</span><br>
+                <span class="peso">126.9044</span>
+            </td>
+            <td class="lilas">
+                <span class="numero">54</span><br>
+                <span class="elemento">Xe</span><br>
+                <span class="nome">Xenon</span><br>
+                <span class="peso">131.38</span>
+            </td>
+        </tr>
+        <tr>
+            <!--sexta fila-->
+            <td class="naranja">
+                <span class="numero">55</span><br>
+                <span class="elemento">Cs</span><br>
+                <span class="nome">Caesium</span><br>
+                <span class="peso">132.905</span>
+            </td>
+            <td class="amarillo">
+                <span class="numero">56</span><br>
+                <span class="elemento">Ba</span><br>
+                <span class="nome">Barium</span><br>
+                <span class="peso">137.34</span>
+            </td>
+            <td class="morado">
+                <span class="numero">57</span><br>
+                <span class="elemento">La</span><br>
+                <span class="nome">Lanthanum</span><br>
+                <span class="peso">138.91</span>
+            </td>
+            <td class="morado">
+                <span class="numero">58</span><br>
+                <span class="elemento">Ce</span><br>
+                <span class="nome">Cerium</span><br>
+                <span class="peso">140.12</span>
+            </td>
+            <td class="morado">
+                <span class="numero">59</span><br>
+                <span class="elemento">Pr</span><br>
+                <span class="nome">Praseodymium</span><br>
+                <span class="peso">140.907</span>
+            </td>
+            <td class="morado">
+                <span class="numero">60</span><br>
+                <span class="elemento">Nd</span><br>
+                <span class="nome">Neodymium</span><br>
+                <span class="peso">144.24</span>
+            </td>
+            <td class="morado">
+                <span class="numero">61</span><br>
+                <span class="elemento">Pm</span><br>
+                <span class="nome">Promethium</span><br>
+                <span class="peso">145</span>
+            </td>
+            <td class="morado">
+                <span class="numero">62</span><br>
+                <span class="elemento">Sm</span><br>
+                <span class="nome">Samarium</span><br>
+                <span class="peso">150.35</span>
+            </td>
+            <td class="morado">
+                <span class="numero">63</span><br>
+                <span class="elemento">Eu</span><br>
+                <span class="nome">Europium</span><br>
+                <span class="peso">151.96</span>
+            </td>
+            <td class="morado">
+                <span class="numero">64</span><br>
+                <span class="elemento">Gd</span><br>
+                <span class="nome">Gadolinium</span><br>
+                <span class="peso">157.25</span>
+            </td>
+            <td class="morado">
+                <span class="numero">65</span><br>
+                <span class="elemento">Tb</span><br>
+                <span class="nome">Terbium</span><br>
+                <span class="peso">158.924</span>
+            </td>
+            <td class="morado">
+                <span class="numero">66</span><br>
+                <span class="elemento">Dy</span><br>
+                <span class="nome">Dysprosium</span><br>
+                <span class="peso">162.50</span>
+            </td>
+            <td class="blue">
+                <span class="numero">67</span><br>
+                <span class="elemento">Ho</span><br>
+                <span class="nome">Holmium</span><br>
+                <span class="peso">164.930</span>
+            </td>
+            <td class="blue">
+                <span class="numero">68</span><br>
+                <span class="elemento">Er</span><br>
+                <span class="nome">Erbium</span><br>
+                <span class="peso">167.26</span>
+            </td>
+            <td class="blue">
+                <span class="numero">69</span><br>
+                <span class="elemento">Tm</span><br>
+                <span class="nome">Thulium</span><br>
+                <span class="peso">168.934</span>
+            </td>
+            <td class="blue">
+                <span class="numero">70</span><br>
+                <span class="elemento">Yb</span><br>
+                <span class="nome">Ytterbium</span><br>
+                <span class="peso">173.04</span>
+            </td>
+            <td class="verde">
+                <span class="numero">71</span><br>
+                <span class="elemento">Lu</span><br>
+                <span class="nome">Lutetium</span><br>
+                <span class="peso">174.97</span>
+            </td>
+            <td class="lilas">
+                <span class="numero">72</span><br>
+                <span class="elemento">Hf</span><br>
+                <span class="nome">Hafnium</span><br>
+                <span class="peso">178.49</span>
+            </td>
+        </tr>
+        </tr>
+        <tr>
+            <!--setima fila-->
+            <td class="naranja">
+                <span class="numero">73</span><br>
+                <span class="elemento">Ta</span><br>
+                <span class="nome">Tantalum</span><br>
+                <span class="peso">180.948</span>
+            </td>
+            <td class="amarillo">
+                <span class="numero">74</span><br>
+                <span class="elemento">W</span><br>
+                <span class="nome">Tungsten</span><br>
+                <span class="peso">183.85</span>
+            </td>
+            <td class="morado">
+                <span class="numero">75</span><br>
+                <span class="elemento">Re</span><br>
+                <span class="nome">Rhenium</span><br>
+                <span class="peso">186.2</span>
+            </td>
+            <td class="morado">
+                <span class="numero">76</span><br>
+                <span class="elemento">Os</span><br>
+                <span class="nome">Osmium</span><br>
+                <span class="peso">190.2</span>
+            </td>
+            <td class="morado">
+                <span class="numero">77</span><br>
+                <span class="elemento">Ir</span><br>
+                <span class="nome">Iridium</span><br>
+                <span class="peso">192.2</span>
+            </td>
+            <td class="morado">
+                <span class="numero">78</span><br>
+                <span class="elemento">Pt</span><br>
+                <span class="nome">Platinum</span><br>
+                <span class="peso">195.09</span>
+            </td>
+            <td class="morado">
+                <span class="numero">79</span><br>
+                <span class="elemento">Au</span><br>
+                <span class="nome">Gold</span><br>
+                <span class="peso">196.967</span>
+            </td>
+            <td class="morado">
+                <span class="numero">80</span><br>
+                <span class="elemento">Hg</span><br>
+                <span class="nome">Mercury</span><br>
+                <span class="peso">200.59</span>
+            </td>
+            <td class="morado">
+                <span class="numero">81</span><br>
+                <span class="elemento">Tl</span><br>
+                <span class="nome">Thallium</span><br>
+                <span class="peso">204.37</span>
+            </td>
+            <td class="morado">
+                <span class="numero">82</span><br>
+                <span class="elemento">Pb</span><br>
+                <span class="nome">Lead</span><br>
+                <span class="peso">207.19</span>
+            </td>
+            <td class="morado">
+                <span class="numero">83</span><br>
+                <span class="elemento">Bi</span><br>
+                <span class="nome">Bismuth</span><br>
+                <span class="peso">209</span>
+            </td>
+            <td class="morado">
+                <span class="numero">84</span><br>
+                <span class="elemento">Po</span><br>
+                <span class="nome">Polonium</span><br>
+                <span class="peso">209</span>
+            </td>
+            <td class="blue">
+                <span class="numero">85</span><br>
+                <span class="elemento">At</span><br>
+                <span class="nome">Astatine</span><br>
+                <span class="peso">210</span>
+            </td>
+            <td class="blue">
+                <span class="numero">86</span><br>
+                <span class="elemento">Rn</span><br>
+                <span class="nome">Radon</span><br>
+                <span class="peso">222</span>
+            </td>
+            <td class="blue">
+                <span class="numero">87</span><br>
+                <span class="elemento">Fr</span><br>
+                <span class="nome">Francium</span><br>
+                <span class="peso">223</span>
+            </td>
+            <td class="blue">
+                <span class="numero">88</span><br>
+                <span class="elemento">Ra</span><br>
+                <span class="nome">Radium</span><br>
+                <span class="peso">226</span>
+            </td>
+            <td class="verde">
+                <span class="numero">89</span><br>
+                <span class="elemento">Ac</span><br>
+                <span class="nome">Actinium</span><br>
+                <span class="peso">227</span>
+            </td>
+            <td class="lilas">
+                <span class="numero">90</span><br>
+                <span class="elemento">Th</span><br>
+                <span class="nome">Thorium</span><br>
+                <span class="peso">232.0</span>
+            </td>
+
+        </tr>
+        <tr>
+            <!--oitava fila-->
+            <td class="naranja">
+                <span class="numero">91</span><br>
+                <span class="elemento">Pa</span><br>
+                <span class="nome">Protactinium</span><br>
+                <span class="peso">231</span>
+            </td>
+            <td class="amarillo">
+                <span class="numero">92</span><br>
+                <span class="elemento">U</span><br>
+                <span class="nome">Uranium</span><br>
+                <span class="peso">238</span>
+            </td>
+            <td class="morado">
+                <span class="numero">93</span><br>
+                <span class="elemento">Np</span><br>
+                <span class="nome">Neptunium</span><br>
+                <span class="peso">237</span>
+            </td>
+            <td class="morado">
+                <span class="numero">94</span><br>
+                <span class="elemento">Pu</span><br>
+                <span class="nome">Plutonium</span><br>
+                <span class="peso">244</span>
+            </td>
+            <td class="morado">
+                <span class="numero">95</span><br>
+                <span class="elemento">Am</span><br>
+                <span class="nome">Americium</span><br>
+                <span class="peso">243</span>
+            </td>
+            <td class="morado">
+                <span class="numero">96</span><br>
+                <span class="elemento">Cm</span><br>
+                <span class="nome">Curium</span><br>
+                <span class="peso">247</span>
+            </td>
+            <td class="morado">
+                <span class="numero">97</span><br>
+                <span class="elemento">Bk</span><br>
+                <span class="nome">Berkelium</span><br>
+                <span class="peso">247</span>
+            </td>
+            <td class="morado">
+                <span class="numero">98</span><br>
+                <span class="elemento">Cf</span><br>
+                <span class="nome">Californium</span><br>
+                <span class="peso">251</span>
+            </td>
+            <td class="morado">
+                <span class="numero">99</span><br>
+                <span class="elemento">Es</span><br>
+                <span class="nome">Eisteinium</span><br>
+                <span class="peso">252</span>
+            </td>
+            <td class="morado">
+                <span class="numero">100</span><br>
+                <span class="elemento">Fm</span><br>
+                <span class="nome">Fermium</span><br>
+                <span class="peso">257</span>
+            </td>
+            <td class="morado">
+                <span class="numero">101</span><br>
+                <span class="elemento">Md</span><br>
+                <span class="nome">Mendelevium</span><br>
+                <span class="peso">258</span>
+            </td>
+            <td class="morado">
+                <span class="numero">102</span><br>
+                <span class="elemento">No</span><br>
+                <span class="nome">Nobelium</span><br>
+                <span class="peso">259</span>
+            </td>
+            <td class="blue">
+                <span class="numero">103</span><br>
+                <span class="elemento">Lr</span><br>
+                <span class="nome">Lawrencium</span><br>
+                <span class="peso">260</span>
+            </td>
+            <td class="blue">
+                <span class="numero">104</span><br>
+                <span class="elemento">Rf</span><br>
+                <span class="nome">Rutherfordium</span><br>
+                <span class="peso">261</span>
+            </td>
+            <td class="blue">
+                <span class="numero">105</span><br>
+                <span class="elemento">Db</span><br>
+                <span class="nome">Dubnium</span><br>
+                <span class="peso">262</span>
+            </td>
+            <td class="blue">
+                <span class="numero">106</span><br>
+                <span class="elemento">Sg</span><br>
+                <span class="nome">Seaborgium</span><br>
+                <span class="peso">263.1</span>
+            </td>
+            <td class="verde">
+                <span class="numero">107</span><br>
+                <span class="elemento">Bh</span><br>
+                <span class="nome">Bohrium</span><br>
+                <span class="peso">262.1</span>
+            </td>
+            <td class="lilas">
+                <span class="numero">108</span><br>
+                <span class="elemento">Hs</span><br>
+                <span class="nome">Hassium</span><br>
+                <span class="peso">265</span>
+            </td>
+        </tr>
+        <tr>
+            <!--nona fila-->
+            <td class="naranja">
+                <span class="numero">109</span><br>
+                <span class="elemento">Mt</span><br>
+                <span class="nome">Meitnerium</span><br>
+                <span class="peso">269</span>
+            </td>
+            <td class="amarillo">
+                <span class="numero">110</span><br>
+                <span class="elemento">Ds</span><br>
+                <span class="nome">Darmstadtium</span><br>
+                <span class="peso">269</span>
+            </td>
+            <td class="morado">
+                <span class="numero">111</span><br>
+                <span class="elemento">Rg</span><br>
+                <span class="nome">Roentgenium</span><br>
+                <span class="peso">272</span>
+            </td>
+            <td class="morado">
+                <span class="numero">112</span><br>
+                <span class="elemento">Uub</span><br>
+                <span class="nome">Ununbium</span><br>
+                <span class="peso"></span>
+            </td>
+            <td class="morado">
+                <span class="numero">113</span><br>
+                <span class="elemento">Nh</span><br>
+                <span class="nome">Nihonium</span><br>
+                <span class="peso">284</span>
+            </td>
+            <td class="morado">
+                <span class="numero">114</span><br>
+                <span class="elemento">Fl</span><br>
+                <span class="nome">Flerovium</span><br>
+                <span class="peso">289</span>
+            </td>
+            <td class="morado">
+                <span class="numero">115</span><br>
+                <span class="elemento">Mc</span><br>
+                <span class="nome">Moscovium</span><br>
+                <span class="peso">288</span>
+            </td>
+            <td class="morado">
+                <span class="numero">116</span><br>
+                <span class="elemento">Lv</span><br>
+                <span class="nome">Livermorium</span><br>
+                <span class="peso">292</span>
+            </td>
+            <td class="morado">
+                <span class="numero">117</span><br>
+                <span class="elemento">Ts</span><br>
+                <span class="nome">Tennesse</span><br>
+                <span class="peso">294</span>
+            </td>
+            <td class="morado">
+                <span class="numero">118</span><br>
+                <span class="elemento">Og</span><br>
+                <span class="nome">Oganessonium</span><br>
+                <span class="peso">294</span>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
